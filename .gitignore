@@ -1,0 +1,7 @@
+# Boot file
+boot.dat
+
+# Extracted files
+/sxos/
+
+write_keys.py
