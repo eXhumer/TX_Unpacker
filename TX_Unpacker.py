@@ -92,6 +92,8 @@ def get_ver_int(boot_ver):
         return 293
     elif (boot_ver[1] == 0x342E) and (boot_ver[0] == 0x392E3256):       # TX BOOT V2.9.4
         return 294
+    elif (boot_ver[1] == 0x352E) and (boot_ver[0] == 0x392E3256):       # TX BOOT V2.9.5
+        return 295
     else:
         return 0
 
